@@ -55,4 +55,7 @@ public class StepperFeedbackTypeComposite implements StepperFeedbackType {
         mChildren.add(component);
     }
 
+    public List<StepperFeedbackType> getChildComponents() {
+        return mChildren;
+    }
 }
